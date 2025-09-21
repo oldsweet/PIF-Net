@@ -1,5 +1,4 @@
-# PIF-Net: Ill-Posed Prior Guided Multispectral and Hyperspectral Image Fusion via Invertible Mamba and Fusion-Aware LoRA
-
+## PIF-Net: Ill-Posed Prior Guided Multispectral and Hyperspectral Image Fusion via Invertible Mamba and Fusion-Aware LoRA
 ## Abstract  
 Multispectral and hyperspectral image fusion (MHIF) aims to generate high-quality images that combine rich spectral information with fine spatial details. However, this task is fundamentally ill-posed due to the inherent trade-off between spectral and spatial resolution and the limited availability of aligned observations. Existing methods often struggle with challenges arising from data misalignment.
 To address this, we propose **PIF-Net**, a novel fusion framework that explicitly incorporates ill-posed priors to effectively merge multispectral and hyperspectral images. Our approach leverages an **invertible Mamba architecture** to ensure information consistency during feature transformation and fusion, maintaining stable gradient flow and enabling process reversibility while balancing global spectral modeling with computational efficiency. Additionally, we introduce a **Fusion-Aware Low-Rank Adaptation (LoRA) module** that dynamically calibrates spectral and spatial features, keeping the model lightweight and adaptable.
